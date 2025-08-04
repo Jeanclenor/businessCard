@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+#jeanImage {
+  width: 25rem;
+  height: 25rem;
+}
+
+.container {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px dotted;
+  padding: 5rem;
+  margin: 5rem;
+  flex-direction: row;
+  gap: 2px;
+  border-color: rgb(249, 254, 249);
+}
+
+.child {
+  border-radius: 0.5em;
+  padding: 20px;
+  width: 10em;
+}
+
+.left {
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  width: 100px;
+}
+
+.right {
+  width: 300px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+
+
+    animation:glow 10s ease-in-out infinite;
+}
+
